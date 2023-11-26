@@ -1,15 +1,11 @@
 import random
 
-word_list = ["grapes", "tangerines", "oranges", "apples", "watermelons"]
-print(word_list)
 
-word = random.choice(word_list)
+fruit_word_list = ["grapes", "tangerines", "oranges", "apples", "watermelons"]
+print(fruit_word_list)
 
-print("Randomly selected word: ", word)
+randomly_selected_word_in_fruit_word_list = random.choice(fruit_word_list)
+print("Randomly selected word: ", randomly_selected_word_in_fruit_word_list)
 
-guess = input("Enter a single letter: ")
 
-if len(guess) == 1 and guess.isalpha():
-    print("Good guess")
-else:
-    print("Oops! That is not a valid input.")
+
