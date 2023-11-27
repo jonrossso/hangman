@@ -5,9 +5,13 @@ Jon-Ross
 # Table of Content
 
 Project Description
+
 Installation Instructions
+
 Usage Instructions
+
 File Structure of the project
+
 License Information
 
 # Project Description:  what it does, the aim of the project, and what you learned
