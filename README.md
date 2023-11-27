@@ -15,8 +15,11 @@ License Information
 This Project is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
 
 milestone_2.py contains the fruit word list.
-milestone_3.py contains the check_guess & ask_for_input functions
-milestone_4.py creates a class Hangman with two attributes word_list and num_lives. It also defines two methods *check_guess* and *ask_for_input* (self explanatory)
+
+milestone_3.py contains the check_guess & ask_for_input functions.
+
+milestone_4.py creates a class Hangman with two attributes word_list and num_lives. It also defines two methods *check_guess* and *ask_for_input*
+
 milestone_5.py launches the entire game using the play_game function
 
 # Installation instructions
