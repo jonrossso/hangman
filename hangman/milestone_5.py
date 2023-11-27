@@ -2,7 +2,7 @@ import random
 import milestone_2
 
 class Hangman:
-    # Initialising this gamee with a list of words and a set number of lives
+    # Initialising this game with a list of words and a set number of lives
     def __init__(self, word_list, num_lives = 5):
         self.word_list = word_list  # Listing the possible words to guess
         self.num_lives = num_lives  # Number of allowed incorrect guesses
@@ -13,7 +13,7 @@ class Hangman:
 
     # Method to check a player's guess
     def check_guess(self, guess):
-        guess = guess.lower()  # Converting the guess to lowercase] for consistency
+        guess = guess.lower()  # Converting the guess to lowercase for consistency
         if guess in self.word:
             print(f"Good guess! {guess} is in the word.")
 
@@ -58,18 +58,6 @@ def play_game(word_list):
             break
         
 play_game(milestone_2.fruit_word_list)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":
