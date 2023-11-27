@@ -30,10 +30,15 @@ python3 <>
 # File Structure of the project
 
 ├── milestone_2.py          # milestone_2.py contains the fruit word list.
+
 ├── milestone_3.py          # milestone_3.py contains the check_guess & ask_for_input functions
+
 ├── milestone_4.py          # milestone_4.py creates a class Hangman with two attributes and two methods
+
 ├── milestone_5.py          # launches the entire game using the play_game function
+
 ├── hangman_Template.py     # 
+
 └── README.md               # Overall information about this Hangman project
 
 # License Information
