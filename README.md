@@ -1,52 +1,98 @@
-Jon-Ross
+# Jon-Ross Stanley-Owusu
 
 # Project Title: Hangman
 
-# Table of Content
+## Table of Content
 
-Project Description
+1. [Project Description](#project-description)
+2. [Installation Instructions](#installation-instructions)
+3. [Usage Instructions](#usage-instructions)
+5. [Class Breakdown](#class-breakdown)
+6. [File Structure of the Project](#file-structure-of-the-project)
+7. [License Information](#license-information)
 
-Installation Instructions
+## Project Description
 
-Usage Instructions
+### What It Does
 
-File Structure of the project
+This Hangman project is a Python-based implementation of the classic Hangman game. The objective is simple: the computer randomly selects a word, and the player tries to guess it, one letter at a time. The player has a limited number of guesses, and for each incorrect guess, a part of the 'hangman' is drawn.
 
-License Information
+### The Aim of the Project
 
-# Project Description:  what it does, the aim of the project, and what you learned
+The main goal of this project is to provide an interactive way for a user to play Hangman. This project has peaked my insight into understanding Python programming, especially focusing on Object-Oriented Programming.
 
-This Project is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
+### Learning Outcomes
 
-milestone_2.py contains the fruit word list.
+Through this project, I have gained a deeper understanding of:
+- Python programming basics and advanced concepts.
+- Object-Oriented Programming (OOP) in Python, including classes, objects, methods, and attributes.
+- Working with external modules and files in Python eg. import milestone_2, which contains the word list
+- Handling user inputs and validating them.
 
-milestone_3.py contains the check_guess & ask_for_input functions.
+## Installation Instructions
 
-milestone_4.py creates a class Hangman with two attributes word_list and num_lives. It also defines two methods *check_guess* and *ask_for_input*
+To get started with the Hangman game, te latest version of Python should be installed on a computer with a CLI (Mac, Windows or Linux).
 
-milestone_5.py launches the entire game using the play_game function
+## Usage Instructions
 
-# Installation instructions
+To play the game, navigate to the project directory in your terminal or command prompt and run the following command:
 
-Latest version of Python should be installed on a computer with a CLI (Mac, Windows or Linux)
+python3 milestone_5.py
 
-# Usage instructions
+This will start the game, and you'll be prompted to guess letters.
 
-python3 <>
+## Class Breakdown
 
-# File Structure of the project
+# Attributes:
+
+word_list: List of possible words for the game.
+
+num_lives: The number of incorrect guesses allowed before the game ends.
+
+word: The word selected for the current game.
+
+word_guessed: A list representing the word in its guessed state, with underscores for unguessed letters.
+
+num_letters: The count of unique letters in the word that haven't been guessed yet.
+
+list_of_guesses: A record of all the guesses made so far.
+
+# Methods:
+
+__init__(self, word_list, num_lives = 5): Constructor to initialise the new game.
+
+check_guess(self, guess): Checks whether the guessed letter is in the word.
+
+ask_for_input(self): Prompts the player to guess a letter and handles the input.
+
+Gameplay Overview
+
+Start: The game begins by selecting a random word from a predefined list.
+
+Player Input: The player is prompted to guess one letter at a time.
+
+Guess Evaluation: Each guess is evaluated to determine if it's part of the word.
+
+Game Progress: The game keeps track of correctly guessed letters, remaining lives, and previously guessed letters.
+
+Win/Lose Conditions: The game ends when the player either guesses the word correctly or runs out of lives.
+
+Through each step, the player receives feedback about their guesses, the current state of the word, and their number of remaining lives.
+
+## File Structure
 
 ├── milestone_2.py          # milestone_2.py contains the fruit word list.
 
-├── milestone_3.py          # milestone_3.py contains the check_guess & ask_for_input functions
+├── milestone_3.py          # milestone_3.py contains the check_guess & ask_for_input functions.
 
-├── milestone_4.py          # milestone_4.py creates a class Hangman with two attributes and two methods
+├── milestone_4.py          # milestone_4.py creates the Hangman class with 2 attributes and 2 methods.
 
-├── milestone_5.py          # launches the entire game using the play_game function
+├── milestone_5.py          # launches the entire game using the play_game function.
 
-├── hangman_Template.py     # 
+├── hangman_Template.py     # helped as a guide in developing the project. Also gave useful hints
 
 └── README.md               # Overall information about this Hangman project
+
 
 # License Information
 
