@@ -63,7 +63,7 @@ This will start the game, and you'll be prompted to guess letters.
 
 #### **Letter Repetition Prompt:** Prompt upon repeating a letter.
 
-![Letter Repetition Prompt](screenshots/word_repetition_prompt.png)
+![Letter Repetition Prompt](screenshots/letter_repetition_prompt.png)
 
 #### **Winning:** Guessing the word correctly and winning the game.
 
