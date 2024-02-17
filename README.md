@@ -1,5 +1,4 @@
 # Jon-Ross Stanley-Owusu
-# Jon-Ross Stanley-Owusu
 
 # Project Title: Hangman
 
